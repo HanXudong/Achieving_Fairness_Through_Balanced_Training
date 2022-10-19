@@ -1,4 +1,4 @@
-# Balancing out Bias: Achieving_Fairness_Through_Balanced_Training
+# Balancing out Bias: Achieving Fairness Through Balanced Training
 
 Source codes for EMNLP 2022 paper "Balancing out Bias: Achieving Fairness Through Balanced Training"
 
