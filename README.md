@@ -5,13 +5,21 @@ Source codes for EMNLP 2022 paper "Balancing out Bias: Achieving Fairness Throug
 If you use the code, please cite the following paper:
 
 ```
-@article{han2021balancing,
-  title={Balancing out Bias: Achieving Fairness Through Training Reweighting},
-  author={Xudong Han and Timothy Baldwin and Trevor Cohn},
-  journal={ArXiv},
-  year={2021},
-  volume={arXiv preprint arXiv:2109.08253}
+@inproceedings{han-etal-2022-balancing,
+    title = "Balancing out Bias: Achieving Fairness Through Balanced Training",
+    author = "Han, Xudong  and
+      Baldwin, Timothy  and
+      Cohn, Trevor",
+    booktitle = "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2022",
+    address = "Abu Dhabi, United Arab Emirates",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.emnlp-main.779",
+    pages = "11335--11350",
+    abstract = "Group bias in natural language processing tasks manifests as disparities in system error rates across texts authorized by different demographic groups, typically disadvantaging minority groups. Dataset balancing has been shown to be effective at mitigating bias, however existing approaches do not directly account for correlations between author demographics and linguistic variables, limiting their effectiveness. To achieve Equal Opportunity fairness, such as equal job opportunity without regard to demographics, this paper introduces a simple, but highly effective, objective for countering bias using balanced training.We extend the method in the form of a gated model, which incorporates protected attributes as input, and show that it is effective at reducing bias in predictions through demographic input perturbation, outperforming all other bias mitigation techniques when combined with balanced training.",
 }
+
 ```
 
 # Quick Links
